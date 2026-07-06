@@ -70,6 +70,7 @@ data = [
     "pyproj>=3.7.1", # TODO: pygrib imports this, so technically in core, to check
     "scipy>=1.15.2",
     "multi-storage-client[boto3,google-cloud-storage,fsspec]>=0.33.0; python_version<'3.14'",
+    "insitubatch>=0.1.0; python_version>='3.12'", # streaming cloud-zarr loader — earth2studio.data.insitu
     "eumdac>=3.1.0",
 ]
 perturbation = [
